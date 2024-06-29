@@ -10,7 +10,6 @@
 A continuación se muestran algunos de los comandos esenciales que todo usuario debe conocer:
 
 - **`ls`:** Lista el contenido de un archivo o directorio.
-  - **Opciones útiles**
   ```bash
   ls -l  # Lista archivos y carpetas de manera detallada
   ls -a  # Lista todos los archivos, incluyendo archivos ocultos (aquellos que comienzan con un punto).
