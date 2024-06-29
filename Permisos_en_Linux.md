@@ -1,5 +1,12 @@
 # Permisos de Archivos y Directorios
 
+Los permisos en Linux controlan el acceso a los archivos y directorios. Cada archivo y directorio tiene asociado un conjunto de permisos que determinan quién puede **leer**, **escribir** o **ejecutar** el archivo o directorio. Estos permisos pueden ser otorgados a tres tipos de categorías: **propietario**, **grupo** y **otros**.
+
+## **Conceptos de Propietario, Grupo y Otros**
+- **Propietario (Owner):** Se refiere al usuario que creó el archivo o directorio. Tiene control total sobre el archivo por defecto.
+- **Grupo (Group):** Se refiere a un conjunto de usuarios que comparten permisos sobre el archivo o directorio.
+- **Otros (Others):** Se refiere a todos los demás usuarios que no son ni el propietario ni miembros del grupo.
+
 ## Cada usuario puede tener uno o más de los siguientes permisos
 - **`r` (read):** Permiso de lectura, permite ver el contenido del archivo o listar el contenido del directorio.
 - **`w` (write):** Permiso de escritura, permite modificar el contenido del archivo o añadir/eliminar archivos en el directorio.
