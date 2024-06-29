@@ -78,7 +78,7 @@ A continuación se muestran algunos de los comandos esenciales que todo usuario 
   
 ## Ejemplos Prácticos
 
-### **Navegación y gestión de archivos:**
+### Navegación y gestión de archivos:
    ```bash
    cd ~/Documentos  # Navegar al directorio Documentos
 
@@ -95,7 +95,7 @@ A continuación se muestran algunos de los comandos esenciales que todo usuario 
    mv hola_copia.txt /directorio/destino  # Mover el archivo copiado a otra ubicación
    ```
 
-### **Búsqueda y visualización de contenido:**
+### Búsqueda y visualización de contenido:
    ```bash
    find . -name "hola.txt"  # Buscar el archivo llamado hola.txt en el directorio actual (.)
  
@@ -103,3 +103,14 @@ A continuación se muestran algunos de los comandos esenciales que todo usuario 
  
    less hola.txt  # Mostrar el contenido de un archivo de forma paginada
    ```
+
+## Fuentes para consultar cómo usar los comandos de la terminal de Linux:
+
+- **Manuales de Linux**
+  - Los manuales de Linux son una excelente fuente de información sobre comandos específicos. Se acceder a estos manuales directamente desde la terminal utilizando el comando  `man` seguido del nombre del comando que quieres consultar. Por ejemplo:
+    ```bash
+    man ls
+    ```
+    
+- **Documentación oficial de Ubuntu**
+  - La documentación oficial de Ubuntu incluye una guía detallada sobre los comandos de terminal. Toda la documentación está disponible [aquí](https://help.ubuntu.com/community/UsingTheTerminal).
