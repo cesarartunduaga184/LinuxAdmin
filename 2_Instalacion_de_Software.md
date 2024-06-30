@@ -41,14 +41,14 @@ Para instalar un paquete, se utiliza el siguiente comando:
 sudo apt install nombre_del_paquete
 ```
 ### Ejemplo:
-Para instalar el navegador web Firefox, ejecutamos el siguiente comando:
+Para instalar el `firefox`, ejecutamos el siguiente comando:
 ```bash
 sudo apt install firefox
 ```
 
 ## Buscar paquetes
 
-Para buscar un paquete específico en los repositorios, se puede utiliza se utiliza el siguiente comando.
+Para buscar un paquete específico en los repositorios, se utiliza el comando.
 ```bash
 apt search nombre_del_paquete
 ```
@@ -68,7 +68,7 @@ sudo apt remove nombre_del_paquete
 
 ### Ejemplo:
 
-Para eliminar `Firefox`, ejecutamos:
+Para eliminar `firefox`, ejecutamos:
 ```bash
 sudo apt remove firefox
 ```
@@ -80,7 +80,7 @@ Después de eliminar paquetes, se pueden quedar archivos residuales que no son n
 sudo apt autoremove
 ```
 
-## Actualizar Todos los Paquetes: 
+## Actualizar Todos los Paquetes 
 
 Para actualizar todos los paquetes instalados a sus versiones más recientes, ejecutamos el comando:
 ```bash
@@ -90,7 +90,7 @@ sudo apt upgrade
 
 ## Uso de Snap
 
-**Snap** es un sistema de empaquetado y despliegue de software desarrollado por **Canonical** para Ubuntu y otras distribuciones de Linux. Los paquetes Snap incluyen todas las dependencias necesarias para ejecutar el software, lo que simplifica la instalación.
+**Snap** es un sistema de empaquetado y despliegue de software desarrollado por **Canonical** para Ubuntu y otras distribuciones de Linux. Los paquetes **Snap** incluyen todas las dependencias necesarias para ejecutar el software, lo que simplifica la instalación.
 
 ## Instalar un paquete Snap
 
@@ -141,21 +141,21 @@ Flatpak es otro sistema de empaquetado que permite instalar aplicaciones en vari
 
 ## Instalar Flatpak
 
-Primero, es necesario instalar Flatpak. 
+Primero, es necesario instalar `flatpak`. 
 ```bash
 sudo apt install flatpak
 ```
 
 ## Añadir un repositorio Flatpak
 
-Para poder instalar aplicaciones, es necesario añadir un repositorio. Flathub es el repositorio más común. Para esto, ejecutamos el siguiente comando
+Para poder instalar aplicaciones, es necesario añadir un repositorio. **Flathub** es el repositorio más común. Para esto, ejecutamos el siguiente comando
 ```bash
 sudo flatpak remote-add --if-not-exists flathub https://flathub.org/repo/flathub.flatpakrepo
 ```
 
 ### Instalar un paquete Flatpak
 
-Para instalar un paquete Flatpak, se utiliza el comando:
+Para instalar un paquete `flatpak`, se utiliza el comando:
 ```bash
 flatpak install flathub nombre_del_paquete
 ```
