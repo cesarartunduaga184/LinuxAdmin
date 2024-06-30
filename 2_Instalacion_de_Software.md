@@ -231,4 +231,36 @@ sudo dpkg -i google-chrome-stable_current_amd64.deb
 sudo apt --fix-broken install
 ```
 
-- **Mantener el sistema actualizado es esencial para garantizar la seguridad y estabilidad del entorno Linux. Los repositorios proporcionan acceso a una amplia gama de software, mientras que las actualizaciones protegen contra vulnerabilidades y aseguran que el software funcione de manera óptima.**
+## En resumen
+
+### APT (Advanced Package Tool)
+- **Definición:** Es un gestor de paquetes tradicional utilizado en Debian y Ubuntu.
+- **Funcionamiento:** Instala software desde repositorios que contienen paquetes `.deb`.
+- **Dependencias:** Gestiona dependencias automáticamente, instalando las necesarias desde los repositorios.
+- **Integración:** Muy integrado con el sistema, los paquetes instalados son específicos de la distribución.
+- **Ejemplo:**
+  ```bash
+  sudo apt install firefox
+  ```
+
+### Snap
+- **Definición:** Sistema de empaquetado desarrollado por Canonical.
+- **Funcionamiento:** Instala software en forma de paquetes autónomos llamados "snaps".
+- **Dependencias:** Incluye todas las dependencias necesarias dentro del paquete, lo que lo hace más grande.
+- **Integración:** Funciona en múltiples distribuciones Linux. Los snaps están aislados del sistema base mediante **sandboxing**.
+- **Ejemplo:**
+  ```bash
+  sudo snap install code --classic
+  ```
+
+### Flatpak
+- **Definición:** Sistema de empaquetado que permite instalar aplicaciones en varias distribuciones Linux.
+- **Funcionamiento:** Instala software en forma de paquetes autónomos llamados `flatpaks`.
+- **Dependencias:** Incluye las dependencias en el paquete, asegurando compatibilidad entre distribuciones.
+- **Integración:** También utiliza **sandboxing** para aislar aplicaciones del sistema base. Requiere añadir repositorios (ej. **Flathub**).
+- **Ejemplo:**
+  ```bash
+  flatpak install flathub com.spotify.Client
+  ```
+
+#### Mantener el sistema actualizado es esencial para garantizar la seguridad y estabilidad del entorno Linux. Los repositorios proporcionan acceso a una amplia gama de software, mientras que las actualizaciones protegen contra vulnerabilidades y aseguran que el software funcione de manera óptima.
