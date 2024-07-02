@@ -211,24 +211,26 @@ La Tienda de Software de Ubuntu es una interfaz gráfica que permite a los usuar
 
 ## Instalación de programas desde un archivo `.deb`
 
-Los archivos `.deb` son paquetes Debian que pueden instalarse directamente.
+Los archivos `.deb` son paquetes de software diseñados para sistemas basados en Debian, como Ubuntu. Estos paquetes contienen el software y las instrucciones necesarias para instalarlo en el sistema. Instalar software desde un archivo `.deb` puede ser útil cuando una aplicación no está disponible en los **repositorios oficiales** o cuando se necesita una versión específica.
 
 ## Descargar un archivo `.deb`
 
-Supongamos que deseamos instalar `Google Chrome`. Primero, debemos descargar el archivo `.deb` desde el sitio oficial:
+Generalmente, los archivos `.deb` se pueden descargar desde los sitios web oficiales de las aplicaciones. Por ejemplo, para descargar **Google Chrome**, podemos ir a su sitio oficial y obtener el archivo `.deb`.
 
 - https://www.google.com/intl/es_es/chrome/browser-tools/
 
 ## Instalar el archivo `.deb`
 
-Para instalar el archivo `.deb`, utiliza `dpkg`:
+Una vez descargado el archivo `.deb`, se utiliza la herramienta `dpkg` (**Debian Package Manager**) para instalarlo.
 ```bash
 sudo dpkg -i google-chrome-stable_current_amd64.deb
 ```
+- Este comando indica a `dpkg` que instale el paquete especificado.
 
 ### Si hay dependencias faltantes, debemos ejecutar:
+- Durante la instalación con `dpkg`, pueden haber dependencias faltantes, lo que causará errores. Para resolver estas dependencias, se utiliza `apt`:
 ```bash
-sudo apt --fix-broken install
+sudo apt install -f
 ```
 
 ## En resumen
