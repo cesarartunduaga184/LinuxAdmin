@@ -193,22 +193,6 @@ Para eliminar Spotify:
 flatpak uninstall com.spotify.Client
 ```
 
-## Uso de la Tienda de Software de Ubuntu
-
-La Tienda de Software de Ubuntu es una interfaz gráfica que permite a los usuarios buscar, instalar y gestionar software fácilmente.
-
-## Buscar e instalar software
-
-- Abrir la Tienda de Software de Ubuntu desde el menú de **Aplicaciones**.
--  Utilizar la barra de búsqueda para encontrar el software deseado.
-- Seleccionar el software y hacer clic en **Instalar**.
-
-## Gestionar software instalado
-
-- Abrir la **Tienda de Software** de Ubuntu.
-- Ir a la sección de **Instalado** para ver y gestionar el software instalado.
-- Para eliminar un programa, seleccionar el programa y hacer clic en **Eliminar**.
-
 ## Instalación de programas desde un archivo `.deb`
 
 Los archivos `.deb` son paquetes de software diseñados para sistemas basados en Debian, como Ubuntu. Estos paquetes contienen el software y las instrucciones necesarias para instalarlo en el sistema. Instalar software desde un archivo `.deb` puede ser útil cuando una aplicación no está disponible en los **repositorios oficiales** o cuando se necesita una versión específica.
