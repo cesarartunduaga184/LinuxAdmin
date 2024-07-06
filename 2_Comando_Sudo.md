@@ -23,7 +23,7 @@ sudo nano /etc/hosts
 
 El archivo `/etc/sudoers` define las reglas que determinan qué usuarios pueden utilizar `sudo` y qué comandos pueden ejecutar. Editar este archivo directamente puede ser riesgoso, ya que un error en la sintaxis puede impedir el uso de `sudo`. Por eso, se recomienda usar el comando `visudo`, que verifica la sintaxis antes de guardar los cambios.
 
-### Uso de `visudo`:
+### Uso de `visudo`
 
 ```bash
 sudo visudo
@@ -74,8 +74,8 @@ juan ALL=(ALL) /sbin/reboot
 
 ## Configuraciones avanzadas
 
-#### `NOPASSWD`:
-Para permitir que un usuario ejecute comandos `sudo` sin tener que ingresar su contraseña:
+#### `NOPASSWD`
+Se usa para permitir que un usuario ejecute comandos `sudo` sin tener que ingresar su contraseña:
 
 ```bash
 juan ALL=(ALL:ALL) NOPASSWD:ALL
