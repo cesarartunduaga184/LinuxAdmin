@@ -126,16 +126,19 @@ El montaje es el proceso de hacer que un sistema de archivos esté disponible pa
 ### Ejemplo de Montaje de un Sistema de Archivos
 
 - **Crear un punto de montaje:**
+
    ```bash
    sudo mkdir /mnt/mi_unidad
    ```
 
 - **Montar un dispositivo (por ejemplo, `/dev/sdb1`):**
+
    ```bash
    sudo mount /dev/sdb1 /mnt/mi_unidad
    ```
 
 - **Desmontar el dispositivo:**
+
    ```bash
    sudo umount /mnt/mi_unidad
    ```
