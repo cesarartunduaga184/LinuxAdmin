@@ -1,4 +1,4 @@
-# Permisos de Archivos y Directorios
+# Permisos en Archivos y Directorios
 
 Los permisos en Linux controlan el acceso a los archivos y directorios. Cada archivo y directorio tiene asociado un conjunto de permisos que determinan quién puede **leer**, **escribir** o **ejecutar** el archivo o directorio. Estos permisos pueden ser otorgados a tres tipos de categorías: **propietario**, **grupo** y **otros**.
 
