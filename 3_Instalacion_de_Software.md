@@ -1,6 +1,6 @@
 # Instalación de Programas en Ubuntu
 
-La mayoría de las distribuciones de Linux, ofrecen múltiples formas de instalar software, desde el uso de gestores de paquetes y tiendas de aplicaciones, hasta la compilación de software desde el código fuente. A continuación, se detallan las diferentes maneras de instalar programas en Ubuntu, con ejemplos prácticos para cada método.
+La mayoría de las distribuciones de Linux ofrecen múltiples formas de instalar software, desde el uso de gestores de paquetes y tiendas de aplicaciones, hasta la compilación de software desde el código fuente. A continuación, se detallan las diferentes maneras de instalar programas en Ubuntu, con ejemplos prácticos para cada método.
 
 ## Uso de APT (Advanced Package Tool)
 
