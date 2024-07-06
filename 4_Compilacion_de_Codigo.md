@@ -1,4 +1,4 @@
-# Compilación e Instalación desde el Código Fuente
+# Compilación e Instalación software desde el Código Fuente
 
 Compilar e instalar software desde el código fuente permite tener control total sobre el proceso de instalación, incluyendo la optimización y personalización del software. Este método es útil cuando el software no está disponible en formato binario para tu distribución o cuando se desea aplicar parches específicos.
 
